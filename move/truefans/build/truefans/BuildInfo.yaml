@@ -1,0 +1,26 @@
+---
+compiled_package_info:
+  package_name: truefans
+  address_alias_instantiation:
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+    truefans: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: 9D14CBD4316A69D38ACDBDF15B553E7D163AEA5470F36BABB18F057B06B82B9B
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: "./Move.lock"
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    default_flavor: sui
+    default_edition: ~
+    deps_as_root: false
+    silence_warnings: false
+    warnings_are_errors: false
+    additional_named_addresses: {}
+dependencies:
+  - MoveStdlib
+  - Sui
