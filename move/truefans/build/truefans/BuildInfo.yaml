@@ -5,17 +5,17 @@ compiled_package_info:
     std: "0000000000000000000000000000000000000000000000000000000000000001"
     sui: "0000000000000000000000000000000000000000000000000000000000000002"
     truefans: "0000000000000000000000000000000000000000000000000000000000000000"
-  source_digest: 9D14CBD4316A69D38ACDBDF15B553E7D163AEA5470F36BABB18F057B06B82B9B
+  source_digest: 3F6F939B3FA01E367A1E7ACB8E685ACAF42360C37406BCFDFCCECB038DFF4852
   build_flags:
-    dev_mode: false
-    test_mode: false
+    dev_mode: true
+    test_mode: true
     generate_docs: false
     install_dir: ~
     force_recompilation: false
-    lock_file: "./Move.lock"
+    lock_file: ~
     fetch_deps_only: false
     skip_fetch_latest_git_deps: false
-    default_flavor: sui
+    default_flavor: ~
     default_edition: ~
     deps_as_root: false
     silence_warnings: false
