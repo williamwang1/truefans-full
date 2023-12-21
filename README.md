@@ -26,6 +26,13 @@ cargo install --locked --git https://github.com/MystenLabs/sui.git --branch test
 ```
 > **_NOTE:_**  please make sure your sui binary is compiled using latest commit in testnet branch
 
+### Run project
+```
+npm install
+npm run dev
+
+```
+> **_NOTE:_**  fronte UI is just generated code only
 
 ### Test project
 ```
